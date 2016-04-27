@@ -14,6 +14,7 @@
 		C5B6DF961CD0BF72005B88B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5B6DF941CD0BF72005B88B6 /* LaunchScreen.storyboard */; };
 		C5B6DFA11CD0BF72005B88B6 /* SwiftTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B6DFA01CD0BF72005B88B6 /* SwiftTestTests.swift */; };
 		C5B6DFAC1CD0BF72005B88B6 /* SwiftTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B6DFAB1CD0BF72005B88B6 /* SwiftTestUITests.swift */; };
+		C5B6DFBB1CD0DA4F005B88B6 /* 257AC61D-4EB4-4898-8887-28D75BC3FB86.png in Resources */ = {isa = PBXBuildFile; fileRef = C5B6DFBA1CD0DA4F005B88B6 /* 257AC61D-4EB4-4898-8887-28D75BC3FB86.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		C5B6DFAB1CD0BF72005B88B6 /* SwiftTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTestUITests.swift; sourceTree = "<group>"; };
 		C5B6DFAD1CD0BF72005B88B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C5B6DFB91CD0C03F005B88B6 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
+		C5B6DFBA1CD0DA4F005B88B6 /* 257AC61D-4EB4-4898-8887-28D75BC3FB86.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "257AC61D-4EB4-4898-8887-28D75BC3FB86.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 		C5B6DF8A1CD0BF72005B88B6 /* SwiftTest */ = {
 			isa = PBXGroup;
 			children = (
+				C5B6DFBA1CD0DA4F005B88B6 /* 257AC61D-4EB4-4898-8887-28D75BC3FB86.png */,
 				C5B6DF8B1CD0BF72005B88B6 /* AppDelegate.swift */,
 				C5B6DF8D1CD0BF72005B88B6 /* ViewController.swift */,
 				C5B6DFB91CD0C03F005B88B6 /* MyPlayground.playground */,
@@ -234,6 +237,7 @@
 				C5B6DF961CD0BF72005B88B6 /* LaunchScreen.storyboard in Resources */,
 				C5B6DF931CD0BF72005B88B6 /* Assets.xcassets in Resources */,
 				C5B6DF911CD0BF72005B88B6 /* Main.storyboard in Resources */,
+				C5B6DFBB1CD0DA4F005B88B6 /* 257AC61D-4EB4-4898-8887-28D75BC3FB86.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
