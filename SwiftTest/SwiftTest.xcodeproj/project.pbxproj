@@ -47,6 +47,7 @@
 		C5B6DFA71CD0BF72005B88B6 /* SwiftTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5B6DFAB1CD0BF72005B88B6 /* SwiftTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTestUITests.swift; sourceTree = "<group>"; };
 		C5B6DFAD1CD0BF72005B88B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5B6DFB91CD0C03F005B88B6 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +100,7 @@
 			children = (
 				C5B6DF8B1CD0BF72005B88B6 /* AppDelegate.swift */,
 				C5B6DF8D1CD0BF72005B88B6 /* ViewController.swift */,
+				C5B6DFB91CD0C03F005B88B6 /* MyPlayground.playground */,
 				C5B6DF8F1CD0BF72005B88B6 /* Main.storyboard */,
 				C5B6DF921CD0BF72005B88B6 /* Assets.xcassets */,
 				C5B6DF941CD0BF72005B88B6 /* LaunchScreen.storyboard */,
