@@ -21,6 +21,27 @@ class SwiftTestTests: XCTestCase {
         super.tearDown()
     }
     
+    func testRegex() {
+        let string:String = "http://www.baidu.com?wezeit_jump=2"
+        let regex:String = "wezeit_jump=(\\d+)"
+        let result = string.captureComponentsMatchedByRegex(regex)
+        if result.count>1 {
+           XCTAssertEqual(result[1] as? String, "2")
+        }
+        
+//        if let validarray:Array = result {
+//            XCTAssertEqual(validarray[1] as? String, "2")
+//        } 
+        else {
+            XCTAssertTrue(false,"not passed")
+        }
+    }
+    
+    func testPerson() {
+        let person:Person = Person()
+        XCTAssertNotNil(person, "passed")
+    }
+    
     func testExample() {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.

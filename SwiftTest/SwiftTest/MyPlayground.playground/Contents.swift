@@ -4,14 +4,7 @@ import UIKit
 
 var str = "Hello, playground"
 
-var a = 0
-for _ in 0 ..< 19 {
-    a = a+1
-    print(str)
-    print("i l"+"\(0)")
-}
-
-var rect:CGRect = CGRectMake(0, 0, 1000, 667)
+var rect:CGRect = CGRectMake(0, 0, 100, 100)
 var slice:CGRect = CGRectZero
 var remainder:CGRect = CGRectZero
 
@@ -50,6 +43,51 @@ for _ in 0 ..< numerofrow {
 
 
 view
+
+var string:String! = "Hello world"
+string
+string!
+
+
+
+var string1:String
+
+
+"log"
+
+var count:Int?
+count = 100
+if let validcount = count {
+    "count is " + String(validcount)
+} else {
+    "count is nil"
+}
+
+let a: NSString?
+a = "test"
+if let b = a {
+    b
+}
+
+if true, let b = a where b == "tes1t" {
+    "true"
+} else {
+    "false"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
